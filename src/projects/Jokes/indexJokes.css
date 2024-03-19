@@ -1,0 +1,29 @@
+.jokes {
+    background-color:beige;
+    border-bottom:  2px solid gray;
+    border-right: 2px solid gray;;
+    margin: 5px;
+    border-radius: 8px;
+    
+}
+
+.jokes > h2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.jokes > h4 {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.jokes > h2 > button {
+    border-radius: 8px;
+    background-color: rgba(138, 43, 226, 0.25);
+}
+
+.jokes > h2 > button:hover {
+    cursor: pointer;
+    background-color: rgba(138, 43, 226, 0.55);
+}
